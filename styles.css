@@ -1,0 +1,70 @@
+#global{
+    border:2px solid rgb(139, 136, 136);
+    border-radius: 10px;
+    display:block;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    margin-top: 20%;
+    margin-left: 25%;
+    background-color: rgb(143, 186, 200);
+}
+
+#form{
+    margin-left: 35%;
+}
+
+
+button{
+    margin: 0px 48% 0px;
+}
+
+#array{
+    width: auto;
+    height:20px;
+    font-size: 20px;
+    margin: 20px 90px 20px;
+    text-align: center;
+    color:rgb(49, 64, 77); 
+}
+
+#sort{
+    width: auto;
+    height:20px;
+    font-size: 20px;
+    margin: 20px 90px 20px;
+    text-align: center;
+    color:rgb(49, 64, 77);
+}
+
+
+
+/*
+window.addEventListener('load', function(){
+    console.log("Cargado...")
+
+    var add = document.getElementById('form')              //boton add
+    var val = document.getElementById('number')
+    var storedValues = localStorage.getItem('value')
+
+    var array = storedValues ? JSON.parse(storedValues) : [];     // Si no hay valores en el localStorage, inicializa el array vacío
+
+    var botonSort = document.getElementById('sortBoton')
+    var botonClear = document.getElementById('clearBoton')
+
+    add.addEventListener('submit',() => {
+        if(isNaN(val.value) == false){
+            array.push(val.value)
+            
+            localStorage.setItem('value', JSON.stringify(array))
+            console.log(val.value)
+            
+
+        }
+    })
+
+
+
+
+
+*/
