@@ -36,35 +36,3 @@ button{
     text-align: center;
     color:rgb(49, 64, 77);
 }
-
-
-
-/*
-window.addEventListener('load', function(){
-    console.log("Cargado...")
-
-    var add = document.getElementById('form')              //boton add
-    var val = document.getElementById('number')
-    var storedValues = localStorage.getItem('value')
-
-    var array = storedValues ? JSON.parse(storedValues) : [];     // Si no hay valores en el localStorage, inicializa el array vacío
-
-    var botonSort = document.getElementById('sortBoton')
-    var botonClear = document.getElementById('clearBoton')
-
-    add.addEventListener('submit',() => {
-        if(isNaN(val.value) == false){
-            array.push(val.value)
-            
-            localStorage.setItem('value', JSON.stringify(array))
-            console.log(val.value)
-            
-
-        }
-    })
-
-
-
-
-
-*/
